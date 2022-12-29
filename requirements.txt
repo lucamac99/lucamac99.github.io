@@ -1,0 +1,11 @@
+geopandas
+pandas
+matplotlib
+gpxpy
+geopy.geocoders
+os
+tqdm
+movingpandas
+datetime
+json
+folium

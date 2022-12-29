@@ -28,4 +28,4 @@ The analysis workflow is divided into three main files: analysis_1/2/3.py.
 
 ![Intresting points](/images/intresting_points.png)
 
-* analysis_3.py: In this file I used the scikit-learn library to perform machine learning algorithms. The analysis included the calculation of the most important features for the prediction of the track difficulty. After a reccomendation system has been developed, which is based on the user's preferences and goals. The system suggests the most suitable tracks based on the user's preferences and goals. 
+* analysis_3.py: In this file I used the scikit-learn library to perform machine learning algorithms. The analysis included the calculation of the most important features for the prediction of the track difficulty. After a reccomendation system has been developed, which is based on the user's preferences and goals. Running the code the name of a existing user will be asked and the system will suggest the best tracks for him/her.

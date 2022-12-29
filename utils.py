@@ -4,13 +4,7 @@ import folium
 from math import radians, sin, cos, sqrt, atan2
 import geopandas as gpd
 import pandas as pd
-import numpy as np
-import movingpandas as mpd
-import matplotlib
-import matplotlib.pyplot as plt
-import seaborn as sns
 from tqdm import tqdm
-import time
 import warnings
 warnings.filterwarnings('ignore')
 
