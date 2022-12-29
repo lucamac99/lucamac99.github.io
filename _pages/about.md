@@ -20,12 +20,12 @@ Analysis workflow
 
 The analysis workflow is divided into three main files: analysis_1/2/3.py.
 
-1. analysis_1.py: In this file, I used the geopandas library to perform spatial analysis on the hiking tracks. The analysis included the calculation of new columns useful to study the data, such as the season of the year or the number of tracks per user, after one example of track is shown in order to have a better understanding of the data.
+* analysis_1.py: In this file, I used the geopandas library to perform spatial analysis on the hiking tracks. The analysis included the calculation of new columns useful to study the data, such as the season of the year or the number of tracks per user, after one example of track is shown in order to have a better understanding of the data.
 
 ![Track Example](/images/track_example.png)
 
-2. analysis_2.py: Here deeper analysis have been performed. In order to cover the larger part of the topics studied during the course I: found the circle tracks, by extracting the starting and finishing points and comparing them by distance, performed map matching, by searching for intersactions between the tracks and the reference map of GraphHopper, and finally I calculated the so called "intresting points" so the points in the same tracks where a significant number of people have stopped for a while (this can suggest us that there is a natural attraction, lakes or waterfalls, a hut or a refreshment area).
+* analysis_2.py: Here deeper analysis have been performed. In order to cover the larger part of the topics studied during the course I: found the circle tracks, by extracting the starting and finishing points and comparing them by distance, performed map matching, by searching for intersactions between the tracks and the reference map of GraphHopper, and finally I calculated the so called "intresting points" so the points in the same tracks where a significant number of people have stopped for a while (this can suggest us that there is a natural attraction, lakes or waterfalls, a hut or a refreshment area).
 
 ![Intresting points](/images/intresting_points.png)
 
-3. analysis_3.py: In this file I used the scikit-learn library to perform machine learning algorithms. The analysis included the calculation of the most important features for the prediction of the track difficulty. After a reccomendation system has been developed, which is based on the user's preferences and goals. The system suggests the most suitable tracks based on the user's preferences and goals. 
+* analysis_3.py: In this file I used the scikit-learn library to perform machine learning algorithms. The analysis included the calculation of the most important features for the prediction of the track difficulty. After a reccomendation system has been developed, which is based on the user's preferences and goals. The system suggests the most suitable tracks based on the user's preferences and goals. 
