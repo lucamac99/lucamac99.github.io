@@ -39,7 +39,7 @@ for file in g:
         print(location, "\n", location_dict[location])
 
 
-m = getorg.orgmap.create_map_obj()
+m = getorg.orgmap.plot_tracks_obj()
 getorg.orgmap.output_html_cluster_map(location_dict, folder_name="../talkmap", hashed_usernames=False)
 
 
