@@ -56,5 +56,6 @@ The results of this study provide valuable insights for the management and promo
 * The distance between the input user residence and the tracks
 * The number of tracks per user in the same area
 * The number of tracks per user in the same season
-* The age and the experience of the user 
+* The age and the experience of the user
+ 
 Other analysis can be done, for example by using the data of the intresting points to see if there is a correlation between the number of people that stop in a certain point and the number of people that go to that point. This can be done by using the stop points analysis and the intresting points analysis. We can see if the tracks are intersecting each other or based on the datatime of the gpx points, see if two persons have been in the same point at the same time.
