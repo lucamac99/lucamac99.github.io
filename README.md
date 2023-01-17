@@ -14,8 +14,8 @@ To avoid problems with Jupyter using the wrong version of Python, it is recommen
 - `pyenv install 3.8.6`
 - `pyenv virtualenv 3.8.6 geospatial`
 - `pyenv activate geospatial`
-- `pip install --upgrade pip `
-- `pip install -r requirements.txt`
+- `pip3 install --upgrade pip `
+- `pip3 install -r requirements.txt`
 - `jupyter lab`
 - Open the analysis notebooks
 
